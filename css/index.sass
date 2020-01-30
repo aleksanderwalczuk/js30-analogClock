@@ -1,3 +1,7 @@
+$font-primary: #70beca
+$font-secondary: #d29b62
+$outside-border: 6px solid $font-secondary
+
 *
     box-sizing: border-box
     margin: 0
@@ -7,6 +11,7 @@
     body
         font-family: Lato, sans-serif
         font-size: 16px
+        overflow: hidden
 
 .wrapper
     display: flex
@@ -14,12 +19,34 @@
     align-items: center
     width: 100vw
     height: 100vh
+    padding: 1rem
+    background-color: #333945
+    
+.container
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    position: relative
+    width: 360px
+    height: 360px
+    padding: 10px
+    border: 1px solid $font-secondary
+    &::after
+      content: ''
+      position: absolute
+      top: -.5rem
+      right: -.5rem
+      width: 360px
+      height: 360px
+      outline: 1px solid $font-primary
+      z-index: 1
 
 .clock
     &__container
         position: relative
-        min-width: 300px
-        min-height: 300px
+        width: 300px
+        height: 300px
         background: round
         background-color: lightgreen
         border: 4px solid red
