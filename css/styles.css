@@ -27,10 +27,21 @@ body {
   border-radius: 50%;
 }
 
+.clock__bullet {
+  position: absolute;
+  top: 49%;
+  left: 48%;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  z-index: 5;
+  border-radius: 50%;
+}
+
 .clock__hand {
   position: absolute;
-  top: 85px;
-  left: 48%;
+  top: 80px;
+  left: 49%;
   height: 45%;
   min-width: 2px;
   max-width: 45%;
@@ -39,7 +50,7 @@ body {
 }
 
 .clock__second {
-  top: 25px;
+  top: 20px;
   height: 250px;
   z-index: 3;
 }
@@ -49,7 +60,7 @@ body {
 
 .clock__minute {
   width: 4px;
-  top: 35px;
+  top: 32px;
   height: 230px;
   min-height: 4px;
   max-width: 80%;
