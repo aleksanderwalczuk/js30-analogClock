@@ -57,6 +57,9 @@ body {
 .clock__second > .hand__visible {
   background-color: red;
 }
+.clock__second > .hand__hidden {
+  background-color: transparent;
+}
 
 .clock__minute {
   width: 4px;
@@ -70,6 +73,9 @@ body {
 .clock__minute > .hand__visible {
   background-color: blue;
 }
+.clock__minute > .hand__hidden {
+  background-color: transparent;
+}
 
 .clock__hour {
   width: 8px;
@@ -79,6 +85,9 @@ body {
 }
 .clock__hour > .hand__visible {
   background-color: orange;
+}
+.clock__hour > .hand__hidden {
+  background-color: transparent;
 }
 
 .hand__hidden {

@@ -50,8 +50,11 @@
         height: 250px
         z-index: 3
 
-        & > .hand__visible
-            background-color: red
+        & > .hand
+                &__visible
+                    background-color: red
+                &__hidden
+                    background-color: transparent
 
     &__minute
         width: 4px
@@ -62,8 +65,11 @@
         transform: rotate(90deg)
         z-index: 2
 
-        & > .hand__visible
-            background-color: blue
+        & > .hand
+            &__visible
+                background-color: blue
+            &__hidden
+                background-color: transparent
 
     &__hour
         width: 8px
@@ -71,8 +77,11 @@
         transform: rotate(40deg)
         z-index: 1
 
-        & > .hand__visible
-            background-color: orange
+        & > .hand
+            &__visible
+                background-color: orange
+            &__hidden
+                background-color: transparent
 
 .hand
     &__hidden
