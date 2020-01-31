@@ -88,11 +88,10 @@ body {
 
 .clock__minute {
   width: 4px;
-  top: 32px;
+  top: 33px;
   height: 230px;
   min-height: 4px;
   max-width: 80%;
-  transform: rotate(90deg);
   z-index: 2;
 }
 .clock__minute > .hand__visible {
@@ -107,7 +106,6 @@ body {
   width: 8px;
   min-height: 16px;
   left: 140px;
-  transform: rotate(40deg);
   z-index: 1;
 }
 .clock__hour > .hand__visible {
@@ -118,7 +116,6 @@ body {
 }
 
 .hand__hidden {
-  background-color: lightgreen;
   height: 50%;
   width: 100%;
 }
