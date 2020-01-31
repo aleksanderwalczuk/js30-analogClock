@@ -74,8 +74,8 @@ body {
 }
 
 .clock__second {
-  top: 23px;
-  left: 144px;
+  top: 22.5px;
+  left: 145px;
   height: 250px;
   z-index: 3;
 }
@@ -103,6 +103,7 @@ body {
 }
 
 .clock__hour {
+  top: 83px;
   width: 8px;
   min-height: 16px;
   left: 140px;
